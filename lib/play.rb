@@ -37,5 +37,7 @@ end
 
 # Define your play method below
 def play(board)
-  greet = puts "START PLAY TEST"
+  count = 0
+  while count < 10
+  turn(board)
 end
